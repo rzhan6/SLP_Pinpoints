@@ -1,3 +1,3 @@
-Cambiar el tamaño de la imagen y convertir la imagen to grayscale.
-Desde un profundidad de 24 bits (capturado con el SW propio de Heimann) a 8 bits 
-que se simila al imagen IR de base de datos SLP. (hay que tener cuidado con los bodes de la imagen capturada, se tiene que recortarlo.)
+Cambiar el tamaño de la imagen y convertir la imagen a grayscale.
+Desde una profundidad de 24 bits (capturado con el SW propio de Heimann) a 8 bits
+Para obtener el mismo formato de imagen IR de base de datos SLP. (hay que tener cuidado con los bodes de la imagen capturada, se tiene que recortarlo.)
