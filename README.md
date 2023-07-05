@@ -2,7 +2,7 @@
 Este es un repositorio de un Trabajo Final de Grado de ingeniería informática. Se trata de estimar los puntos de presión de las personas que se encuentra en reposo en una cama mediante imágenes de SLP
 
 # Objetivos
-1. Entrenar el modelo con una base de datos pública SLP(Simultaneously-collected multimodal Lying Pose).
+1. Entrenar el modelo con una base de datos pública SLP (Simultaneously-collected multimodal Lying Pose).
 2. Aplicar el modelo entrenado a una imagen para obtener los puntos clave de la articulación.
 3. Estimar los puntos de presión (o pin-points)
 4. Representar los resultados
