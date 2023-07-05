@@ -2,7 +2,7 @@
 
 
 El programa solamente puede grabar y guardar en formato .BDS y .txt.
-utilizando aplicación propio se puede convertirlo en vídeo .AVI.
+Utilizando aplicación propia se puede convertirlo en vídeo .AVI.
 
-Para poder obtener imagen, se puede utilizar libreria cv2 convertir .AVI en frame para tener imagenes. 
+Para poder obtener imagen, se puede utilizar librería cv2 convertir .AVI en frame para tener imágenes. 
 
