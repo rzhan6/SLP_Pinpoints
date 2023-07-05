@@ -1,0 +1,14 @@
+[92m04-18 00:40:53[0m => loading checkpoint '/home/rongrong/SLP-Code/output/SLP_RGB_u12_HRpose_ts1/model_dump/checkpoint.pth'
+[92m04-18 00:40:55[0m => loaded checkpoint '/home/rongrong/SLP-Code/output/SLP_RGB_u12_HRpose_ts1/model_dump/checkpoint.pth' (epoch 100)
+[92m04-18 00:40:55[0m 
+Total Parameters: 28,536,014
+----------------------------------------------------------------------------------------------------------------------------------
+Total Multiply Adds (For Convolution and Linear Layers only): 9.492919921875 GFLOPs
+----------------------------------------------------------------------------------------------------------------------------------
+Number of Layers
+Conv2d : 293 layers   BatchNorm2d : 292 layers   ReLU : 261 layers   Bottleneck : 4 layers   BasicBlock : 104 layers   Upsample : 28 layers   HighResolutionModule : 8 layers   
+[92m04-18 00:40:55[0m ----run final test----
+[92m04-18 00:41:00[0m Test: [0/17]	Time 5.142 (5.142)	Loss 0.0002 (0.0002)	Accuracy 0.980 (0.980)
+[92m04-18 00:41:04[0m Test: [10/17]	Time 0.397 (0.825)	Loss 0.0003 (0.0003)	Accuracy 0.968 (0.966)
+[92m04-18 00:41:06[0m              R_Ankle    R_Knee     R_Hip     L_Hip    L_Knee   L_Ankle   R_Wrist   R_ElbowR_ShoulderL_Shoulder   L_Elbow   L_Wrist    Thorax      Head     total
+[92m04-18 00:41:06[0m    pckh0.5      93.8      95.8      93.3      91.7      94.8      91.9      86.1      91.8      94.0      94.1      93.9      85.2      99.0      99.3      93.2

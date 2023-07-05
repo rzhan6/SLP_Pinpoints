@@ -1,0 +1,81 @@
+----------------- Options ---------------
+                   SLP_fd: /mnt/DADES2/SLP/SLP/simLab    
+                  SLP_set: simLab                        
+               batch_size: 60                            
+          batch_size_pGPU: 60                            
+            bbox_3d_shape: (2000, 2000, 2000)            
+                bone_type: A2J                           
+                 clipMode: 01                            
+                   cov_li: ['uncover', 'cover1', 'cover2']
+                depth_dim: 64                            
+              display_env: main                          
+               display_id: -1                            
+            display_ncols: 3                             
+             display_port: 8097                          
+           display_server: http://localhost              
+          display_winsize: 256                           
+                    ds_fd: /mnt/DADES2/SLP               
+                end_epoch: 100                           
+               epoch_step: -1                            
+                  exp_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1
+                 fc_depth: 50.0                          
+                  gpu_ids: [0]                           
+                   if_adj: y                             
+                    if_bb: False                         
+             if_finalTest: n                             
+              if_flipTest: True                          
+              if_gtRtTest: y                             
+             if_loadPreds: n                             
+                if_pinMem: True                          
+                  if_test: False                         
+             if_test_ckpt: n                             
+                ifb_debug: False                         
+                init_type: xavier                        
+                 input_nc: 1                             
+              input_shape: (256, 256)                    
+                  log_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/log
+                       lr: 0.001                         
+             lr_dec_epoch: [70, 90]                      
+            lr_dec_factor: 0.1                           
+                lr_policy: multi_step                    
+                  mod_src: ['IR']                        
+                    model: HRpose                        
+                modelConf: config/HRpose.conf            
+                model_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/model_dump
+               n_layers_D: 3                             
+                 n_thread: 10                            
+                     name: SLP_IR_u12_HRpose_ts1         
+                   net_BB: res50                         
+                   nmTest: SLP-simLab_exp                
+                  no_html: False                         
+                 num_gpus: 1                             
+                optimizer: adam                          
+                  out_shp: [64, 64, -1]                  
+               output_dir: /home/rongrong/SLP-Code/output
+               pixel_mean: (0.485, 0.456, 0.406)         
+                pixel_std: (0.229, 0.224, 0.225)         
+                     prep: jt_hm                         
+               print_freq: 10                            
+                  rst_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/result
+                save_step: 1                             
+              start_epoch: -1                            
+          suffix_exp_test: exp                           
+         suffix_exp_train: ts1                           
+          suffix_ptn_test: {testset}-{SLP_set}           
+         suffix_ptn_train: {model}                       
+               svVis_step: 1                             
+                   sz_pch: (256, 256)                    
+                  testImg: None                          
+                 testIter: -1                            
+                 test_par: test                          
+                  testset: SLP                           
+                trainIter: -1                            
+                 trainset: ['SLP']                       
+         update_html_freq: 10                            
+              use_gt_info: True                          
+                 use_html: False                         
+                  vis_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/vis/test
+             vis_test_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/vis/test/SLP_simLab
+                  web_dir: /home/rongrong/SLP-Code/output/SLP_IR_u12_HRpose_ts1/web
+              yn_flipTest: y                             
+----------------- End -------------------
