@@ -1,4 +1,4 @@
-# Trabajo Final de Grado - Estimación de los pinpoints with dataset SLP(Simultaneously-collected multimodal Lying Pose)
+# Trabajo Final de Grado - Estimación de los pinpoints con dataset SLP(Simultaneously-collected multimodal Lying Pose)
 Este es un repository de un Trabajo Final de Grado de engeniería informática. Se trata de estimar los puntos de pressión de las personas que se encuentra en reposo en una cama mediante imagenes de SLP
 
 # Objetivos
