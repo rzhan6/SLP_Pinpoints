@@ -1,0 +1,8 @@
+(30 fotogramas por segundo es lo adecuado para conversión de .BDS a .AVI.)
+
+
+El programa solamente puede grabar y guardar en formato .BDS y .txt.
+utilizando aplicación propio se puede convertirlo en vídeo .AVI.
+
+Para poder obtener imagen, se puede utilizar libreria cv2 convertir .AVI en frame para tener imagenes. 
+
