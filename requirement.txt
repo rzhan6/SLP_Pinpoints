@@ -1,0 +1,15 @@
+scipy
+matplotlib
+opencv-python  
+torch
+torchvision 
+scikit-image
+visdom
+# json
+plotly
+jsonpatch
+dominate 
+tqdm
+configargparse
+yacs
+jupyter
