@@ -10,9 +10,13 @@ Este es un repositorio de un Trabajo Final de Grado de ingeniería informática.
 # Base de datos 
 El link de base de datos que ha utilizado: https://web.northeastern.edu/ostadabbas/code/ 
 
+# Instalar los paquetes necesarios con pip 
+$ pip install -r requirements.txt
+
 # Modelo entrenado
 link de descarga: https://drive.google.com/drive/folders/1kSMO8nn2eMVXibOih1nbkGSg5lXKkfxC?usp=sharing
 
 # Referencias 
 - El código abierto del modelo HRPose: https://github.com/ostadabbas/SLP-Dataset-and-Code
-- Referencia paper: https://ieeexplore.ieee.org/document/9726857 
+- Referencia paper: https://ieeexplore.ieee.org/document/9726857
+
